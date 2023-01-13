@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: "local"
+  datasource:
+    mariadb:
+      driver: org.mariadb.jdbc.Driver
+      url: jdbc:mariadb://localhost:3306/devfoxstar
+      username: devfoxstar
+      password: dream0102!
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
